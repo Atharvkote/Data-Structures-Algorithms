@@ -28,4 +28,4 @@ Contributions are welcome! If you have implemented a new data structure or algor
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](License.md).
