@@ -18,7 +18,7 @@ public class constructors {
         Employee harry = new Employee("Harry",2,70000);
 
 
-/*
+/* OUTPUT :
 The name of the first employee is : Shubham
 The id of the first employee is : 1
 The name of the second employee is : Harry
