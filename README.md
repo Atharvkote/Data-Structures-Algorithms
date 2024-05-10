@@ -37,3 +37,8 @@ Contributions are welcome! If you have implemented a new data structure or algor
 ## License
 
 This project is licensed under the [CC0-1.0 License](LICENSE.md).
+<div align="center">
+    <img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+    <img src="https://forthebadge.com/images/badges/built-by-developers.svg" />
+</div>
+
