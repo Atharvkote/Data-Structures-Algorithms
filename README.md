@@ -1,6 +1,14 @@
 # Data Structures and Algorithms
 
-This repository contains implementations of various data structures and algorithms in the programming language [insert language here].
+This repository contains implementations of various data structures and algorithms in the programming language 
+
+<div>
+  
+  | C  | Java |
+|----------|----------|
+|  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C"  alt="C" width="55" height="55"/>  |  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" title="java" alt="java" width="55" height="55"/>|
+
+</div>
 
 ## Table of Contents
 
