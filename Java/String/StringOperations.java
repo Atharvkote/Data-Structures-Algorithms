@@ -1,5 +1,11 @@
 import java.util.*;
 
+/*METHODS USED
+1.Append()
+2.setCharAt()
+3.insert()
+4.Delete()
+*/
 public class Strings {
     public static void main( String args[]){
         Scanner sc = new Scanner(System.in);
