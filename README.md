@@ -19,7 +19,7 @@ This repository contains implementations of various data structures and algorith
 
 ## Introduction
 
-This repository serves as a collection of common data structures and algorithms implemented in [insert language here]. Understanding these fundamental concepts is crucial for every programmer to solve complex problems efficiently.
+This repository serves as a collection of common data structures and algorithms implemented in C and Java. Understanding these fundamental concepts is crucial for every programmer to solve complex problems efficiently.
 
 
 ## How to Use
