@@ -2,7 +2,7 @@
 
 This repository contains implementations of various data structures and algorithms in the programming language 
 
-<div>
+<div align ="center">
   
   | C  | Java |
 |----------|----------|
