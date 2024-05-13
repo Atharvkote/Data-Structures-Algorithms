@@ -1,5 +1,11 @@
 ![logo](Assests/CPro.webp)
 # Data Structures and Algorithms In C 
+<div align="center">
+  
+| C  | 
+|----------|
+|<a href="https://github.com/Atharvkote/DSA-Source-Codes" ><img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C"  alt="C" width="55" height="55"/></a>  |
+</div>
 
 ## Why are Data Structures Important?
 Data structures are essential for the following reasons:
