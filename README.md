@@ -1,4 +1,4 @@
-![logo](Assets/Dsa1.png)
+![logo](Assests/DSA.jpg)
 # Data Structures and Algorithms
 
 This repository contains implementations of various data structures and algorithms in the programming language 
