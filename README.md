@@ -35,10 +35,6 @@ This repository serves as a collection of common data structures and algorithms 
 
 Contributions are welcome! If you have implemented a new data structure or algorithm or want to improve existing code, feel free to open a pull request. Please make sure your code follows the existing style and includes appropriate documentation.
 
-## License
-
-This project is licensed under the [CC0-1.0 License](LICENSE.md).
-
 ## 🔗 Links
 [![Telegram Badge](https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/AtharvKote)
 [![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atharva-kote)
