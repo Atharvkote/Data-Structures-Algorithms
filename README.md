@@ -16,7 +16,7 @@ This repository contains implementations of various data structures and algorith
 1. [Introduction](#introduction)
 2. [How to Use](#how-to-use)
 3. [Contributing](#contributing)
-4. [Links](#🔗links)
+4. [Links](#links)
    
 
 ## Introduction
@@ -36,7 +36,7 @@ This repository serves as a collection of common data structures and algorithms 
 
 Contributions are welcome! If you have implemented a new data structure or algorithm or want to improve existing code, feel free to open a pull request. Please make sure your code follows the existing style and includes appropriate documentation.
 
-## 🔗 Links
+## Links
 [![Telegram Badge](https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/AtharvKote)
 [![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atharva-kote)
 [![Twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ImAtharva81)
