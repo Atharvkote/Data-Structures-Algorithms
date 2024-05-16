@@ -16,7 +16,7 @@ This repository contains implementations of various data structures and algorith
 1. [Introduction](#introduction)
 2. [How to Use](#how-to-use)
 3. [Contributing](#contributing)
-4. [Links](#links)
+4. [Links](#🔗links)
    
 
 ## Introduction
