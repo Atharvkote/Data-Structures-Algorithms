@@ -1,2 +1,2 @@
-![logo](Essentials/JavaBook.jpg)
+![logo](Essentials/Javacup.jpg)
 # Get Started with JAVA Programming 
