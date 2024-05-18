@@ -20,8 +20,12 @@ The set interface is present in java.util package and extends the Collection int
 
 In the above image, the navigable set extends the sorted set interface. Since a set doesn’t retain the insertion order, the navigable set interface provides the implementation to navigate through the Set. The class which implements the navigable set is a TreeSet which is an implementation of a self-balancing tree. Therefore, this interface provides us with a way to navigate through this tree.
 
-Declaration: The Set interface is declared as:
+**Declaration:** The Set interface is declared as:
 
+```sudo
+// Obj is the type of the object to be stored in Set 
+Set<Obj> set = new HashSet<Obj> ();
+```
 
 
 ## Map Interfaces
