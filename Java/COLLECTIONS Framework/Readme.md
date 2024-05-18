@@ -1,4 +1,4 @@
-![logo](Assests/Logo.jpg)
+![logo](Assests/Logo.webp)
 
 # Collections In Java
 
