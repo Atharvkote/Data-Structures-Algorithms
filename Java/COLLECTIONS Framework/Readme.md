@@ -46,9 +46,9 @@ Map hm = new HashMap();
 ## List Interfaces
 <img align="center" src="Assests/Lists.jpg">
 The List interface in Java provides a way to store the ordered collection. It is a child interface of Collection. It is an ordered collection of objects in which duplicate values can be stored. Since List preserves the insertion order, it allows positional access and insertion of elements.
-
-<img align="center" src="Assests/ListFlow">
-
+<br/>
+<img align="center" src="Assests/ListFlow.jpeg">
+<br/>
 The List interface is found in java.util package and inherits the Collection interface. It is a factory of the ListIterator interface. Through the ListIterator, we can iterate the list in forward and backward directions. The implementation classes of the List interface are ArrayList, LinkedList, Stack, and Vector. ArrayList and LinkedList are widely used in Java programming. The Vector class is deprecated since Java 5
 
 **Declaration of Java List Interface**
