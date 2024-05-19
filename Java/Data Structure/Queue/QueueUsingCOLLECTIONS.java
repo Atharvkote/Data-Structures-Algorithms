@@ -15,3 +15,9 @@ public class QueueB {
        }
    }
 }
+/*
+Note :
+1. Queue is A Interface Which is Implemented using the classes like Linked List of ArrayDeque
+2. Therefore in Line Number 6 we created of object of reference to Queue(interface)
+3. And Object is Created of classes Linked List/ArrayDeque 
+*/
