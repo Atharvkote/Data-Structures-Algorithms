@@ -1,2 +1,2 @@
-![logo](https://github.com/DSA-Source-Codes/Java/Essentials/Javacup.jpg)
+![logo](../Essentials/JavaBook.jpg)
 # Get Started with JAVA Programming 
