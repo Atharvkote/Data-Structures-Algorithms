@@ -3,7 +3,7 @@
 # Data Structures and Algorithms in Java
 
 ## Overview
-This README provides a comprehensive guide to data structures and algorithms in Java. It covers fundamental concepts, theoretical explanations, and practical usage examples to help you understand and implement efficient data handling and processing in Java.
+This Repository provides a comprehensive guide to data structures and algorithms in Java. It covers fundamental concepts, theoretical explanations, and practical usage examples to help you understand and implement efficient data handling and processing in Java.
 
 ## Table of Contents
 1. [Introduction](#introduction)
