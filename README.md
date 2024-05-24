@@ -1,6 +1,4 @@
-Apologies for the oversight. Let me include more code examples for each data structure and algorithm:
-
-
+![logo]()
 # Data Structures and Algorithms in Java
 
 ## Overview
@@ -337,9 +335,3 @@ For questions or support, please contact:
 - **Email**: support@datastucturesandalgorithms.com
 - **GitHub**: [DSAJava](https://github.com/DSAJava)
 
----
-
-Feel free to modify this README file to better suit your needs. If you have any questions or need further assistance, don't hesitate to reach out. Happy coding!
-```
-
-This should provide a comprehensive overview of data structures and algorithms in Java with code examples included. If you need any further modifications or have any questions, feel free to ask!
