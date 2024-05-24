@@ -147,11 +147,7 @@ Sorting algorithms arrange elements in a particular order (ascending or descendi
 #### Bubble Sort
 Bubble Sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. It has a time complexity of O(n^2).
 
-#### Quick Sort
-
-Quick Sort is a divide-and-conquer algorithm that selects a pivot element and partitions the array into two halves, sorting them recursively. It has an average time complexity of O(n log n).
-
-#### Example:
+### Example 
 ```java
 class Sorting {
     public void bubbleSort(int[] arr) {
@@ -167,7 +163,13 @@ class Sorting {
             }
         }
     }
+```
+#### Quick Sort
 
+Quick Sort is a divide-and-conquer algorithm that selects a pivot element and partitions the array into two halves, sorting them recursively. It has an average time complexity of O(n log n).
+
+#### Example:
+```java
     public void quickSort(int[] arr, int low, int high) {
         if (low < high) {
             int pi = partition(arr, low, high);
@@ -219,13 +221,39 @@ class LinearSearch {
         return -1; // Return -1 if not found
     }
 }
-
-
-
 ```
 #### Binary Search
 Binary Search works on sorted arrays by repeatedly dividing the search interval in half. It has a time complexity of O(log n).
 
+### Example 
+```java
+class BinarySearch {
+    public static int binarySearch(int[] arr, int target) {
+        int low = 0;
+        int high = arr.length - 1;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            if (arr[mid] == target) {
+                return mid; // Return the index if found
+            } else if (arr[mid] < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
+        return -1; // Return -1 if not found
+    }
+}
+
+
+
+```
+
+### Graph Algorithms
+Graph algorithms operate on graph data structures to solve problems such as pathfinding and connectivity.
 ```java
 import java.util.*;
 
@@ -285,40 +313,7 @@ class Graph {
         }
     }
 }
-
-
 ```
-
-### Example 
-```java
-class BinarySearch {
-    public static int binarySearch(int[] arr, int target) {
-        int low = 0;
-        int high = arr.length - 1;
-
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-
-            if (arr[mid] == target) {
-                return mid; // Return the index if found
-            } else if (arr[mid] < target) {
-                low = mid + 1;
-            } else {
-                high = mid - 1;
-            }
-        }
-
-        return -1; // Return -1 if not found
-    }
-}
-
-
-
-```
-
-### Graph Algorithms
-Graph algorithms operate on graph data structures to solve problems such as pathfinding and connectivity.
-
 #### Depth-First Search (DFS)
 DFS explores as far as possible along each branch before backtracking. It is used in scenarios requiring traversal or searching in tree or graph structures.
 
