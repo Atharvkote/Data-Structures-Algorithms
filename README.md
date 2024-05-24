@@ -32,7 +32,7 @@ Data structures are ways to organize and store data efficiently, and algorithms 
 Arrays are collections of elements identified by index or key. They are stored in contiguous memory locations, which allows constant-time access to elements. Arrays are suitable for scenarios where the size of the data set is known and fixed.
 
 #### Example:
-```markdown
+```java
 int[] array = new int[10];  // Declaration of an array of integers with size 10
 array[0] = 5;  // Assigning value to the first element
 System.out.println(array[0]);  // Accessing the first element
