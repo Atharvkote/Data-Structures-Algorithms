@@ -205,5 +205,4 @@ public class EvenOdd {
 
 ## Contact Information
 For questions or support, please contact:
-- **Email**: support@javabasics.com
-- **GitHub**: [JavaBasics](https://github.com/JavaBasics)
+- **Email**: atharvkote3@gmail.com
