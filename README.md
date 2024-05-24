@@ -1,4 +1,6 @@
-![logo](Assests/DSA.jpg)
+Apologies for the oversight. Let me include more code examples for each data structure and algorithm:
+
+
 # Data Structures and Algorithms in Java
 
 ## Overview
@@ -30,7 +32,7 @@ Data structures are ways to organize and store data efficiently, and algorithms 
 Arrays are collections of elements identified by index or key. They are stored in contiguous memory locations, which allows constant-time access to elements. Arrays are suitable for scenarios where the size of the data set is known and fixed.
 
 #### Example:
-```java
+```markdown
 int[] array = new int[10];  // Declaration of an array of integers with size 10
 array[0] = 5;  // Assigning value to the first element
 System.out.println(array[0]);  // Accessing the first element
@@ -148,7 +150,58 @@ Sorting algorithms arrange elements in a particular order (ascending or descendi
 Bubble Sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. It has a time complexity of O(n^2).
 
 #### Quick Sort
+
 Quick Sort is a divide-and-conquer algorithm that selects a pivot element and partitions the array into two halves, sorting them recursively. It has an average time complexity of O(n log n).
+
+#### Example:
+```java
+class Sorting {
+    public void bubbleSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n-1; i++) {
+            for (int j = 0; j < n-i-1; j++) {
+                if (arr[j] > arr[j+1]) {
+                    // Swap arr[j] and arr[j+1]
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+    }
+
+    public void quickSort(int[] arr, int low, int high) {
+        if (low < high) {
+            int pi = partition(arr, low, high);
+
+            quickSort(arr, low, pi-1);
+            quickSort(arr, pi+1, high);
+        }
+    }
+
+    private int partition(int[] arr, int low, int high) {
+        int pivot = arr[high];
+        int i = low-1;
+        for (int j = low; j < high; j++) {
+            if (arr[j] < pivot) {
+                i++;
+
+                // Swap arr[i] and arr[j]
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+
+        // Swap arr[i+1] and arr[high] (or pivot)
+        int temp = arr[i+1];
+        arr[i+1] = arr[high];
+        arr[high] = temp;
+
+        return i+1;
+    }
+}
+```
 
 ### Searching Algorithms
 Searching algorithms find the position of a target element within a data structure.
@@ -156,8 +209,114 @@ Searching algorithms find the position of a target element within a data structu
 #### Linear Search
 Linear Search scans each element of the list sequentially until the target element is found or the list ends. It has a time complexity of O(n).
 
+#### Example 
+```java
+class LinearSearch {
+    public static int linearSearch(int[] arr, int target) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+                return i; // Return the index if found
+            }
+        }
+        return -1; // Return -1 if not found
+    }
+}
+
+
+
+```
 #### Binary Search
 Binary Search works on sorted arrays by repeatedly dividing the search interval in half. It has a time complexity of O(log n).
+
+```java
+import java.util.*;
+
+class Graph {
+    private int V;
+    private LinkedList<Integer> adj[];
+
+    Graph(int v) {
+        V = v;
+        adj = new LinkedList[v];
+        for (int i = 0; i < v; ++i)
+            adj[i] = new LinkedList();
+    }
+
+    void addEdge(int v, int w) {
+        adj[v].add(w);
+    }
+
+    void DFSUtil(int v, boolean visited[]) {
+        visited[v] = true;
+        System.out.print(v + " ");
+
+        Iterator<Integer> it = adj[v].listIterator();
+        while (it.hasNext()) {
+            int n = it.next();
+            if (!visited[n])
+                DFSUtil(n, visited);
+        }
+    }
+
+    void DFS(int v) {
+        boolean visited[] = new boolean[V];
+
+        DFSUtil(v, visited);
+    }
+
+    void BFS(int v) {
+        boolean visited[] = new boolean[V];
+
+        LinkedList<Integer> queue = new LinkedList<Integer>();
+
+        visited[v] = true;
+        queue.add(v);
+
+        while (queue.size() != 0) {
+            v = queue.poll();
+            System.out.print(v + " ");
+
+            Iterator<Integer> it = adj[v].listIterator();
+            while (it.hasNext()) {
+                int n = it.next();
+                if (!visited[n]) {
+                    visited[n] = true;
+                    queue.add(n);
+                }
+            }
+        }
+    }
+}
+
+
+```
+
+### Example 
+```java
+class BinarySearch {
+    public static int binarySearch(int[] arr, int target) {
+        int low = 0;
+        int high = arr.length - 1;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            if (arr[mid] == target) {
+                return mid; // Return the index if found
+            } else if (arr[mid] < target) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
+        return -1; // Return -1 if not found
+    }
+}
+
+
+
+```
 
 ### Graph Algorithms
 Graph algorithms operate on graph data structures to solve problems such as pathfinding and connectivity.
@@ -178,3 +337,9 @@ For questions or support, please contact:
 - **Email**: support@datastucturesandalgorithms.com
 - **GitHub**: [DSAJava](https://github.com/DSAJava)
 
+---
+
+Feel free to modify this README file to better suit your needs. If you have any questions or need further assistance, don't hesitate to reach out. Happy coding!
+```
+
+This should provide a comprehensive overview of data structures and algorithms in Java with code examples included. If you need any further modifications or have any questions, feel free to ask!
