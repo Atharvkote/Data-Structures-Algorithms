@@ -1,7 +1,7 @@
 ## Note 📝 :
 
 There is a Inbuilt Method for Array Sorting
-```.sort(array);```
+```.sort(array);``` in Arrays Class
 
  ### Basic Syntax
 
