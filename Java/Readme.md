@@ -327,6 +327,7 @@ BFS explores all vertices at the present depth before moving on to vertices at t
 
 ## Contact Information
 For questions or support, please contact:
-- **Email**: support@datastucturesandalgorithms.com
-- **GitHub**: [DSAJava](https://github.com/DSAJava)
-
+- **Email**: atharvkote3@gmail.com 
+- **GitHub Link**:
+  ```sudo
+  https://github.com/Atharvkote/Data-Structures-Algorithms.git
