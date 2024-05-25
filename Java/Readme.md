@@ -111,6 +111,48 @@ System.out.println(map.get("One"));  // Retrieving value based on key (outputs 1
 ### Trees
 Trees are hierarchical data structures consisting of nodes, with a single root node and child nodes forming subtrees. Binary trees, where each node has at most two children, are commonly used. They are used in scenarios such as hierarchical data representation, search operations, and network routing algorithms.
 
+```java
+class TreeNode {
+    int value;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int value) {
+        this.value = value;
+        left = null;
+        right = null;
+    }
+}
+
+public class BinaryTree {
+    // Inorder Traversal (Left, Root, Right)
+    void inorderTraversal(TreeNode root) {
+        if (root != null) {
+            inorderTraversal(root.left);
+            System.out.print(root.value + " ");
+            inorderTraversal(root.right);
+        }
+    }
+
+    // Preorder Traversal (Root, Left, Right)
+    void preorderTraversal(TreeNode root) {
+        if (root != null) {
+            System.out.print(root.value + " ");
+            preorderTraversal(root.left);
+            preorderTraversal(root.right);
+        }
+    }
+
+    // Postorder Traversal (Left, Right, Root)
+    void postorderTraversal(TreeNode root) {
+        if (root != null) {
+            postorderTraversal(root.left);
+            postorderTraversal(root.right);
+            System.out.print(root.value + " ");
+        }
+    }
+}
+```
 #### Types of Trees:
 - **Binary Tree**: Each node has at most two children.
 - **Binary Search Tree (BST)**: A binary tree with ordered nodes.
@@ -316,10 +358,53 @@ class Graph {
 ```
 #### Depth-First Search (DFS)
 DFS explores as far as possible along each branch before backtracking. It is used in scenarios requiring traversal or searching in tree or graph structures.
+```java
+void depthFirstSearch(TreeNode root) {
+    if (root != null) {
+        System.out.print(root.value + " ");
+        depthFirstSearch(root.left);
+        depthFirstSearch(root.right);
+    }
+}
 
+// Example usage:
+// TreeNode root = new TreeNode(1);
+// root.left = new TreeNode(2);
+// root.right = new TreeNode(3);
+// depthFirstSearch(root);  // Output: 1 2 3
+
+```
 #### Breadth-First Search (BFS)
 BFS explores all vertices at the present depth before moving on to vertices at the next depth level. It is used in scenarios requiring the shortest path or level-order traversal in trees or graphs.
+```java
+import java.util.LinkedList;
+import java.util.Queue;
 
+void breadthFirstSearch(TreeNode root) {
+    if (root == null) return;
+
+    Queue<TreeNode> queue = new LinkedList<>();
+    queue.add(root);
+
+    while (!queue.isEmpty()) {
+        TreeNode current = queue.poll();
+        System.out.print(current.value + " ");
+
+        if (current.left != null) {
+            queue.add(current.left);
+        }
+        if (current.right != null) {
+            queue.add(current.right);
+        }
+    }
+}
+
+// Example usage:
+// TreeNode root = new TreeNode(1);
+// root.left = new TreeNode(2);
+// root.right = new TreeNode(3);
+// breadthFirstSearch(root);  // Output: 1 2 3
+```
 ## Further Reading and Resources
 - [Java Documentation](https://docs.oracle.com/javase/8/docs/)
 - [GeeksforGeeks Data Structures](https://www.geeksforgeeks.org/data-structures/)
