@@ -1,3 +1,5 @@
+<img align="center" src="../Essentials/JavaBook.jpg" hieght=300 width=400/>
+
 # Java Programming Basics
 
 ## Overview
