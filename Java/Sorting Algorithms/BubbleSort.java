@@ -57,5 +57,7 @@ public class BubbleSort {
         int arr[] = {5, 4, 3, 2, 1};
         bubbleSortDescending(arr);
         printArr(arr);
+        //bubbleSort(arr);
+       // modifiedBubbleSort(arr);
     }
 }
