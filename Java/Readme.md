@@ -1,4 +1,4 @@
-<img align="center" src="../Assests/DSA.jpg" height=200px width=400px>
+<img align="center" src="Essentials/Dsacup.jpg" height=200px width=400px>
 
 # Data Structures and Algorithms in Java
 
