@@ -8,6 +8,7 @@ There is a Inbuilt Method for Array Sorting
  ```java
 import java util.Arrays;
 int[] array = new int[size];
+array={3,2,1,4,5,7,6};
 Arrays.sort(array);
 //Sorts the array,changes are done in the original array !
 ```
