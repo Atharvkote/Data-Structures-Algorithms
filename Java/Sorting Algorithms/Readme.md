@@ -1,7 +1,7 @@
 ## Note 📝 :
 
 There is a Inbuilt Method for Array Sorting
-```.sort(array);``` in ```Arrays Class``` in  the  ```java.util package```
+```Arrays.sort(array);``` in ```Arrays Class``` in  the  ```java.util package```
 
  ### Basic Syntax
 
@@ -14,6 +14,6 @@ Arrays.sort(array);
 ```
 ### Specs
 
-- **Algorithms :** Quick Sort.
+- **Algorithms used :** Quick Sort.
 - **Time Complexity :** O(n*logn)
   
