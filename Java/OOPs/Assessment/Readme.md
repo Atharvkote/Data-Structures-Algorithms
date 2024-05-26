@@ -26,7 +26,7 @@ NumberGuessingGame.java
 1. Clone the repository or download the code.
 2. Compile the Java file:
    ```sh
-   java GuessTheNumberGame.java
+   javac GuessTheNumberGame.java
    ```
 3. Run the compiled Java program:
    ```sh
