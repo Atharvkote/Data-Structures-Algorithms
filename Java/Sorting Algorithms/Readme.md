@@ -15,5 +15,5 @@ Arrays.sort(array);
 ### Specs
 
 - **Algorithms :** Quick Sort.
-- **Time Complexity :** O(logn)
+- **Time Complexity :** O(n*logn)
   
