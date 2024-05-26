@@ -1,4 +1,4 @@
-<img src="../Essentials/JavaBook.jpg" hieght=300 width=400>
+<img src="../../Essentials/JavaBook.jpg" hieght=300 width=400>
 
 # Basics of Object-Oriented Programming (OOP) in Java
 
