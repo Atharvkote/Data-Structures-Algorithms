@@ -1,3 +1,11 @@
+<img src="../../Essentials/Recursion.png" height=200 width=400 alt="logo">
+
+## What is Recursion? 
+
+The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called a recursive function.
+<br/><br/>
+<img src="../../Essentials/Recurrflow.png" height=200 width=400 alt="logo">
+
 ## Basic Recursion Codes for Understanding Purpose 
 
 ### 1.
