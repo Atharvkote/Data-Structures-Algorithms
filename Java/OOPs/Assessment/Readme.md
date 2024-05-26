@@ -26,11 +26,11 @@ NumberGuessingGame.java
 1. Clone the repository or download the code.
 2. Compile the Java file:
    ```sh
-   javac cwh_50_ex3sol.java
+   java GuessTheNumberGame.java
    ```
 3. Run the compiled Java program:
    ```sh
-   java cwh_50_ex3sol
+   java GuessTheNumberGame
    ```
 
 ## Example Test Cases
@@ -111,11 +111,11 @@ RPSGameUsingOOPs.java
 1. Clone the repository or download the code.
 2. Compile the Java file:
    ```sh
-   javac cwh_41_ex2sol.java
+   javac RockPaperScissorsGame.java 
    ```
 3. Run the compiled Java program:
    ```sh
-   java cwh_41_ex2sol
+   java RockPaperScissorsGame
    ```
 
 ## Example Test Cases
