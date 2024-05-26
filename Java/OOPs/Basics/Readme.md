@@ -198,6 +198,3 @@ public class Car extends Vehicle {
     }
 }
 ```
-
-## Conclusion
-This guide provides a basic understanding of the core concepts of OOP in Java. By understanding and applying these concepts, you can write more modular, maintainable, and reusable code. OOP helps in modeling real-world problems more effectively and is a powerful tool in software development.
