@@ -1,7 +1,7 @@
 ## Note 📝 :
 
 There is a Inbuilt Method for Array Sorting
-```.sort(array);``` in ```Arrays Class``` in  the  ```java util package```
+```.sort(array);``` in ```Arrays Class``` in  the  ```java.util package```
 
  ### Basic Syntax
 
