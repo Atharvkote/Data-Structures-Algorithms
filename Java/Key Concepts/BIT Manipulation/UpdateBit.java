@@ -18,5 +18,5 @@ public class Bits {
        int newNumber = newBitMask & n;
        System.out.println(newNumber);
       }
-   }
+    }
 }
