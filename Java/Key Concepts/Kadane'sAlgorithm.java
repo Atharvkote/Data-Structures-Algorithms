@@ -1,4 +1,4 @@
-//Question : Print maximum subarray sum
+//Question : Print the Subarray With Maximum Sum
 
     //Kadane's Algorithm
     public static void maxSubarraySum3(int arr[]) {
