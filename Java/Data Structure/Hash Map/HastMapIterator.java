@@ -1,4 +1,4 @@
-import java.util.HashMap;//Iteration (1)
+import java.util.HashMap;
 import java.util.HashSet;
 
 public class Hashing {
