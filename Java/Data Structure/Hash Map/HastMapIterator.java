@@ -4,14 +4,14 @@ import java.util.HashSet;
 public class Hashing {
    public static void main(String args[]) {
 
-       //Creation
+       //Iteration Method-(1)
        for( Map.Entry<String, Integer> e : map.entrySet()) {
 
            System.out.println(e.getKey());
            System.out.println(e.getValue());
 
        }
-       //Iteration (2)
+       //Iteration Method-(2)
 
        Set<String> keys = map.keySet();
        for(String key : keys) {
