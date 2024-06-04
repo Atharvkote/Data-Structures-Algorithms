@@ -1,6 +1,7 @@
-# Number-Guessing Game
+# Assessments :
+## Number-Guessing Game
 
-## Description
+### Description
 This is a simple console-based number-guessing game implemented in Java. The user tries to guess a randomly generated number between 0 and 99. The program provides feedback on whether the guess is too high or too low, and counts the number of attempts taken to guess the correct number.
 
 ## How to Play
