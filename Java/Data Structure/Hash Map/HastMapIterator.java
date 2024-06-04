@@ -1,4 +1,13 @@
 import java.util.HashMap;//Iteration (1)
+import java.util.HashSet;
+
+
+public class Hashing {
+
+   public static void main(String args[]) {
+
+       //Creation
+
 
 
        for( Map.Entry<String, Integer> e : map.entrySet()) {
@@ -19,3 +28,5 @@ import java.util.HashMap;//Iteration (1)
            System.out.println(key+ " " + map.get(key));
 
        }
+   }
+}
