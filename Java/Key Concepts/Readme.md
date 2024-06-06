@@ -144,15 +144,13 @@ max_global = 6 (subarray [4, -1, 2, 1])
 **Disadvantages:**
 - Works only for arrays (needs modification for other data structures).
 
----
-
 ## Usage
 
 To use any of these algorithms, you can implement them in your preferred programming language following the provided steps. They are foundational algorithms in computer science and are widely used in various applications.
 
 For example implementations, you can refer to online resources or algorithm textbooks.
 
----
+
 
 ## References
 
@@ -169,4 +167,3 @@ For example implementations, you can refer to online resources or algorithm text
    - [Kadane's Algorithm - GeeksforGeeks](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
    - [Kadane's Algorithm - Wikipedia](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 
----
