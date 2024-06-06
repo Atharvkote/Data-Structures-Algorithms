@@ -3,7 +3,7 @@
 1. [**Divide and Conquer**](#1.divide-and-conquer)
 2. [**Hare and Tortoise Approach for Finding Linked List Middle**](#2.HareandTortoise Approach for Finding Linked List Middle
 )
-3. [**Kadane's Algorithm**](#3.kadane's-algorithm)
+3. [**Kadane's Algorithm**](#3.Kadane's-Algorithm)
 
 ### 1. Divide and Conquer
 
