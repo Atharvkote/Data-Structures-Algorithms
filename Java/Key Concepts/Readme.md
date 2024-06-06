@@ -1,6 +1,6 @@
 # Key Concepts ⏳️💡
 
-1. [**Divide and Conquer**](#1.divideandconquer)
+1. [**Divide and Conquer**](#1.divide-and-conquer)
 2. [**Hare and Tortoise Approach for Finding Linked List Middle**](#2.HareandTortoise Approach for Finding Linked List Middle
 )
 3. [**Kadane's Algorithm**]()
