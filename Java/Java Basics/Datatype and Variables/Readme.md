@@ -76,32 +76,3 @@ public MyClass() {
     DAYS_IN_WEEK = 7;
 }
 ```
-
-Got it, let me add a rule for variable declarations:
-
-## 2. Variable Declaration
-
-Variables are declared with a specific data type and optional modifiers.
-
-```java
-<DataType> <variableName>;
-```
-
-### 6.Rule for Variable Declaration
-
-- Variable names should be meaningful and descriptive.
-- Use camelCase for variable names.
-- Start variable names with a lowercase letter.
-- Avoid using single characters or abbreviations for variable names unless it's a widely accepted convention (e.g., `i` for loop counters).
-- Variable names should not start with a digit.
-- Variable names should not be Java keywords or reserved words.
-
-### Example
-
-```java
-int age;
-double price;
-char grade;
-boolean isPassed;
-```
-
