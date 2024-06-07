@@ -1,7 +1,9 @@
+<div align="center">
+  
 # Collections In Java
 
-<img src="../Essentials/Logo.webp" height= 200 width=400>
-
+<img style="border-radius= 10px" src="../Essentials/Logo.webp" height= 200 width=400>
+</div></br>
 The Java collections framework is a set of classes and interfaces that implement commonly reusable collection data structures. Although referred to as a framework, it works in a manner of a library. The collections framework provides both interfaces that define various collections and classes that implement them.
 <br/>
 
