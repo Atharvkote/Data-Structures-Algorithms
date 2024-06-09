@@ -66,7 +66,7 @@ The Hare and Tortoise approach, also known as Floyd's Tortoise and Hare algorith
 
 **Visual Representation:**
 
-```
+```java
 Linked List: 1 -> 2 -> 3 -> 4 -> 5
 
 Initial state:
@@ -112,7 +112,7 @@ Kadane's Algorithm is an efficient algorithm to find the maximum sum subarray in
 
 **Visual Representation:**
 
-```
+```java
 Array: [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 
 Initial state:
