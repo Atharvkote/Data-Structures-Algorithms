@@ -59,7 +59,3 @@ The sliding window technique is particularly effective when:
 ## Conclusion
 
 The sliding window technique is a versatile and efficient method for solving a wide range of problems involving contiguous elements in an array or string. By understanding and applying this technique, you can improve the performance and clarity of your solutions for such problems.
-
----
-
-This `README` provides a concise yet comprehensive overview of the sliding window technique, its applications, and an example implementation. Adjust the details according to the specific requirements and complexity of the problems you're addressing.
