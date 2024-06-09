@@ -23,7 +23,7 @@ Divide and Conquer is an algorithmic paradigm that breaks a problem into smaller
 
 **Visual Representation:**
 
-```
+```css
 Original Problem
        |
      Divide
