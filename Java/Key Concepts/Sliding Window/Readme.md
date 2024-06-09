@@ -15,11 +15,58 @@ The sliding window technique maintains a window that slides over the collection 
 3. **Shrink the Window**: Adjust the start of the window to maintain the desired condition or to explore new subarrays.
 4. **Record Results**: Depending on the problem, record the necessary results when the window is in a valid state.
 
-### Example Problems
+### Visualization
 
-1. **Maximum Sum Subarray of Fixed Size**: Find the maximum sum of any subarray of a given size `k`.
-2. **Longest Substring Without Repeating Characters**: Find the length of the longest substring without repeating characters in a given string.
-3. **Subarray Product Less Than K**: Count the number of contiguous subarrays where the product of elements is less than a given `k`.
+Let's visualize the sliding window technique using the example of finding the maximum sum of any subarray of size `k`.
+
+#### Example Problem
+
+Given an array `arr = [2, 1, 5, 1, 3, 2]` and `k = 3`, find the maximum sum of any subarray of size 3.
+
+#### Step-by-Step Visualization
+
+1. **Initial Window**:
+    - Array: `[2, 1, 5, 1, 3, 2]`
+    - Window: `[2, 1, 5]`
+    - Window Sum: `2 + 1 + 5 = 8`
+
+    ```
+    [2, 1, 5, 1, 3, 2]
+     ^-----^
+    ```
+
+2. **Slide the Window to the Right**:
+    - Remove the leftmost element (2) and add the next element (1).
+    - New Window: `[1, 5, 1]`
+    - Window Sum: `1 + 5 + 1 = 7`
+
+    ```
+    [2, 1, 5, 1, 3, 2]
+        ^-----^
+    ```
+
+3. **Slide the Window to the Right Again**:
+    - Remove the leftmost element (1) and add the next element (3).
+    - New Window: `[5, 1, 3]`
+    - Window Sum: `5 + 1 + 3 = 9`
+
+    ```
+    [2, 1, 5, 1, 3, 2]
+           ^-----^
+    ```
+
+4. **Slide the Window to the Right One More Time**:
+    - Remove the leftmost element (5) and add the next element (2).
+    - New Window: `[1, 3, 2]`
+    - Window Sum: `1 + 3 + 2 = 6`
+
+    ```
+    [2, 1, 5, 1, 3, 2]
+              ^-----^
+    ```
+
+5. **Conclusion**:
+    - The maximum sum of any subarray of size 3 is `9`.
 
 ## Example Implementation
 
