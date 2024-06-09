@@ -73,26 +73,36 @@ Given an array `arr = [2, 1, 5, 1, 3, 2]` and `k = 3`, find the maximum sum of a
 Here's an example implementation of finding the maximum sum of any subarray of size `k` using the sliding window technique in Python:
 
 ```python
-def max_sum_subarray(arr, k):
-    n = len(arr)
-    if n < k:
-        return -1  # Not enough elements to form a subarray of size k
-    
-    # Compute the sum of the first window
-    window_sum = sum(arr[:k])
-    max_sum = window_sum
-    
-    # Slide the window over the rest of the array
-    for i in range(n - k):
-        window_sum = window_sum - arr[i] + arr[i + k]
-        max_sum = max(max_sum, window_sum)
-    
-    return max_sum
+public class SlidingWindow {
 
-# Example usage:
-arr = [2, 1, 5, 1, 3, 2]
-k = 3
-print(f"Maximum sum of subarray of size {k}: {max_sum_subarray(arr, k)}")
+    public static int maxSumSubarray(int[] arr, int k) {
+        int n = arr.length;
+        if (n < k) {
+            return -1; // Not enough elements to form a subarray of size k
+        }
+        
+        int windowSum = 0;
+        // Compute the sum of the first window
+        for (int i = 0; i < k; i++) {
+            windowSum += arr[i];
+        }
+        
+        int maxSum = windowSum;
+        // Slide the window over the rest of the array
+        for (int i = 0; i < n - k; i++) {
+            windowSum = windowSum - arr[i] + arr[i + k];
+            maxSum = Math.max(maxSum, windowSum);
+        }
+        
+        return maxSum;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {2, 1, 5, 1, 3, 2};
+        int k = 3;
+        System.out.println("Maximum sum of subarray of size " + k + ": " + maxSumSubarray(arr, k));
+    }
+}
 ```
 
 ## When to Use Sliding Window
