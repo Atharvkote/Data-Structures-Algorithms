@@ -1,4 +1,4 @@
-![logo](Assests/9.png)
+![logo](Assests/C.png)
 
 # Data Structures and Algorithms in C
 
