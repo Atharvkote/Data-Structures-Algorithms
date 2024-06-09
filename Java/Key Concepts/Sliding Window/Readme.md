@@ -72,7 +72,7 @@ Given an array `arr = [2, 1, 5, 1, 3, 2]` and `k = 3`, find the maximum sum of a
 
 Here's an example implementation of finding the maximum sum of any subarray of size `k` using the sliding window technique in Python:
 
-```python
+```java
 public class SlidingWindow {
 
     public static int maxSumSubarray(int[] arr, int k) {
