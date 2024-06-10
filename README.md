@@ -279,7 +279,13 @@ Use `unittest` for testing Python implementations.
 
 ## Documentation
 
-For more detailed documentation, please visit our [Wiki](https://github.com/your-username/data-structures-algorithms/wiki).
+For more detailed documentation, please visit our Documentation pages.
+
+  <a href="https://github.com/Atharvkote/Data-Structures-Algorithms/Java/Readme.md">
+    <img  src="https://skillicons.dev/icons?i=java" />
+  </a> <a href="https://github.com/Atharvkote/Data-Structures-Algorithms/C/Readme.md">
+    <img  src="https://skillicons.dev/icons?i=c" />
+  </a> 
 
 
 ## Contributors
