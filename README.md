@@ -267,7 +267,7 @@ For more detailed documentation, please visit our [Wiki](https://github.com/your
 
 ## Contributors
 
-We appreciate all contributions. Please see the [Contributors](https://github.com/your-username/data-structures-algorithms/graphs/contributors) page for a list of all contributors.
+We appreciate all contributions. Please see the [Contributors](https://github.com/Atharvkote/Data-Structures-Algorithms/graphs/contributors) page for a list of all contributors.
 
 
 ## Issues and Bugs
