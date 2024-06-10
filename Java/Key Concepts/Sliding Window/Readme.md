@@ -1,5 +1,7 @@
 # Sliding Window Technique
 
+<img src="../../Essentials/SlidingWindow.webp" height=250 width=400>
+
 ## Introduction
 
 The sliding window technique is a powerful approach for solving problems that involve processing elements in a subset or subarray of a larger collection. It is particularly useful for problems that require examining all contiguous subarrays of a fixed length, or finding an optimal subarray based on certain conditions.
