@@ -2,6 +2,7 @@
 <p align="center">
 <img align="center" src="Assests/dsa_logo.jpg" height=200 width=300>
 </p>
+
 ## Syllabus
 
 ### Data Structures
