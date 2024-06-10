@@ -294,7 +294,19 @@ To report issues or bugs, please open an issue on our [Issues page](https://gith
 ## Contact
 
 For any questions or suggestions, feel free to open an issue or contact us directly.
+<div>
+  
+   [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/atharvakote)
+   [![My Skills](https://skillicons.dev/icons?i=twitter)](https://twitter.com/ImAtharva81)
+    [![My Skills](https://skillicons.dev/icons?i=stackoverflow)](https://stackoverflow.com/users/25127888/atharva-kote)
+     [![My Skills](https://skillicons.dev/icons?i=instagram)](https://www.instagram.com/___atharv_81?igsh=MWxseGoyYmlianp6ZQ==)
+    [![My Skills](https://go-skill-icons.vercel.app/api/icons?i=gmail)]((mailto:atharvkote3@gmail.com))
+
+</div>
 
 ## Thats It 🚀
 
 Thank you for visiting our repository! We hope you find these resources useful for your learning and development.
+<p align="center">
+     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+</p>
