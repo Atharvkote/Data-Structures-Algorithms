@@ -53,7 +53,8 @@
 
 ## Python
 
-**_Python_** is an accessible and easy-to-learn language, perfect for quickly prototyping and implementing data structures and algorithms. *Note: Python implementations are coming soon!*
+**_Python_** is an accessible and easy-to-learn language, perfect for quickly prototyping and implementing data structures and algorithms.</br>
+`Note: Python implementations are coming soon!`
 
 ### Specialities
 - **Ease of Use**: Python's simple and readable syntax makes it a great choice for beginners and for rapid development.
