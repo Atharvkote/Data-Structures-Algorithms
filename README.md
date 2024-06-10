@@ -83,31 +83,6 @@ git clone https://github.com/your-username/data-structures-algorithms.git
 - Navigate to the Python directory (coming soon).
 
 
-## Usage
-
-### Running Java Implementations
-
-```sh
-cd java
-javac YourClass.java
-java YourClass
-```
-
-### Running C Implementations
-
-```sh
-cd c
-gcc your_program.c -o your_program
-./your_program
-```
-
-### Running Python Implementations (Coming Soon)
-
-```sh
-cd python
-python your_script.py
-```
-
 ### Java Directory Structure
 
 ```js
@@ -253,6 +228,12 @@ For compiling and running a C file:
 cd c/linkedlists
 gcc singly_linked_list.c -o singly_linked_list
 ./singly_linked_list
+```
+#### Python (Coming Soon)
+
+```sh
+cd python
+python your_script.py
 ```
 
 ## Examples and Demos
