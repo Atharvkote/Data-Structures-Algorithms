@@ -1,5 +1,5 @@
 # Note 📝 :
-### Introduction to FunctionsIn Java
+### Introduction to Functions In Java
 
 A function (also called a method) is a block of code designed to perform a specific task. Functions help in breaking down complex problems into simpler pieces and promote code reusability.Defining a FunctionTo define a function in Java, you need to specify the return type, function name, and parameters (if any). The general syntax is:
 
