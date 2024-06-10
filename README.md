@@ -1,5 +1,7 @@
 # Data Structures and Algorithms
 
+<img align="center" src="Assests/dsa_logo.jpg" height=200 width=300>
+
 ## Syllabus
 
 ### Data Structures
