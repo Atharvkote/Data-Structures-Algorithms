@@ -30,7 +30,12 @@
 
 
 ## Java
-
+<div align="center">
+  <a href="https://github.com/Atharvkote/Data-Structures-Algorithms/Java">
+    <img  src="https://skillicons.dev/icons?i=java,idea" />
+  </a> 
+</div>
+ 
 **_Java_** is a versatile programming language known for its Object-Oriented Programming (OOP) capabilities, which make it a strong choice for implementing data structures and algorithms.
 
 ### Specialities
@@ -41,6 +46,12 @@
 
 
 ## C
+<div align="center">
+  <a href="https://github.com/Atharvkote/Data-Structures-Algorithms/Java">
+    <img  src="https://skillicons.dev/icons?i=c,vscode" />
+  </a> 
+</div>
+
 
 **_C_** is a powerful language that gives you control over system resources, making it ideal for low-level data structure manipulation and algorithm implementation.
 
@@ -52,6 +63,11 @@
 
 
 ## Python
+<div align="center">
+  <a href="https://github.com/Atharvkote/Data-Structures-Algorithms/Java">
+    <img  src="https://skillicons.dev/icons?i=python,anaconda" />
+  </a> 
+</div>
 
 **_Python_** is an accessible and easy-to-learn language, perfect for quickly prototyping and implementing data structures and algorithms.</br>
 `Note: Python implementations are coming soon!`
