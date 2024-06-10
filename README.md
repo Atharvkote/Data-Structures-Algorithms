@@ -281,9 +281,9 @@ Use `unittest` for testing Python implementations.
 
 For more detailed documentation, please visit our Documentation pages.
 
-  <a href="https://github.com/Atharvkote/Data-Structures-Algorithms/Java/Readme.md">
+  <a href="Java/Readme.md">
     <img  src="https://skillicons.dev/icons?i=java" />
-  </a> <a href="https://github.com/Atharvkote/Data-Structures-Algorithms/C/Readme.md">
+  </a> <a href="C/Readme.md">
     <img  src="https://skillicons.dev/icons?i=c" />
   </a> 
 
