@@ -272,7 +272,7 @@ We appreciate all contributions. Please see the [Contributors](https://github.co
 
 ## Issues and Bugs
 
-To report issues or bugs, please open an issue on our [Issues](https://github.com/Atharvkote/Data-Structures-Algorithms/graphs/issue) page.
+To report issues or bugs, please open an issue on our [Issues page](https://github.com/Atharvkote/Data-Structures-Algorithms/graphs/issues)
 
 ## Contact
 
