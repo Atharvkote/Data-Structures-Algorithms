@@ -1,5 +1,5 @@
 <div align="center">
-<img align="center" src="Essentials/Javacup.jpg" height=400px width=500px>
+<img align="center" src="Essentials/Javacup.jpg" height=400px width=400px>
 
 
 # Data Structures and Algorithms in Java
