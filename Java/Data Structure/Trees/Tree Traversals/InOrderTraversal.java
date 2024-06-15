@@ -48,5 +48,6 @@ public static void main(String args[]) {
        BinaryTree tree = new BinaryTree()   
 
        Node root = tree.buildTree(nodes);
+       tree.inorder();
     }
 }
