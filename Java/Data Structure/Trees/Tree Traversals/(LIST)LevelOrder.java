@@ -47,7 +47,7 @@ public List<List<Integer>> levelOrder(TreeNode root) {
        Node root = tree.buildTree(nodes);// check the build tree file
        List<List<Integer>> result = LevelOrder(root);
        print(result);
-          
+          // output : [[1][2,3][4,5,6]]
  }
 } 
 }
