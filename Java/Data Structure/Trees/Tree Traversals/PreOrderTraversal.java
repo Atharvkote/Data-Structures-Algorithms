@@ -49,6 +49,6 @@ public static void main(String args[]) {
        BinaryTree tree = new BinaryTree()   
 
        Node root = tree.buildTree(nodes);
-       System.out.println(root.data); // output : 1(Root nodes of the tree)
+        tree.preorder();// output : 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1
    }
 }
