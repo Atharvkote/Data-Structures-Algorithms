@@ -44,7 +44,7 @@ public List<List<Integer>> levelOrder(TreeNode root) {
  public static void main(String args[]) {
        int nodes[] = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};
        TreeNode tree = new TreeNode()   
-       Node root = tree.buildTree(nodes);
+       Node root = tree.buildTree(nodes);// check the build tree file
        List<List<Integer>> result = LevelOrder(root);
        print(result);
           
