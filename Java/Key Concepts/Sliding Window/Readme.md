@@ -1,6 +1,6 @@
 # Sliding Window Technique
 
-<img src="../../Essentials/SlidingWindow.webp" height=250 width=400>
+<img src="../../Essentials/SlidingWindow.webp" height=200 width=400>
 
 ## Introduction
 
