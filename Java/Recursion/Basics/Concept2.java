@@ -1,4 +1,4 @@
-package com.kunal.easy;
+
 
 public class Reverse {
     static int sum = 0;
@@ -12,6 +12,7 @@ public class Reverse {
     }
 
     static int rev2(int n) {
+        // concept:  with need a variable in agrument but cant change defualt functions arguments :
         // sometimes you might need some additional variables in the argument
         // in that case, make another function
         int digits = (int)(Math.log10(n)) + 1;
