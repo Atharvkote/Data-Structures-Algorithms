@@ -1,5 +1,7 @@
 # Time Complexity in Data Structures
 
+<img src="../../Assests/Time.webp" height=100 width=350>
+
 ## Introduction
 Time complexity is a critical concept in computer science and plays a vital role in the design and analysis of efficient algorithms and data structures. It allows us to measure the amount of time an algorithm or data structure takes to execute, which is crucial for understanding its efficiency and scalability.
 
