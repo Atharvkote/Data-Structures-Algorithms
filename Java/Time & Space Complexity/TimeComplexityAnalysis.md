@@ -16,6 +16,8 @@ In analyzing algorithms, we consider three types of time complexity:
 ## Big O Notation
 Time complexity is frequently expressed using Big O notation. It represents the maximum possible running time for an algorithm given the size of the input. Let's go through some crucial notations.
 
+<img src="../../Assests/BigO2.webp" height=250 width=400>
+
 ### a) O(1) - Constant Time Complexity
 If an algorithm takes the same amount of time to execute no matter how big the input is, it is said to have constant time complexity. This is the best-case scenario as it shows how effective the algorithm is. Examples of operations having constant time complexity include accessing a component of an array or executing simple arithmetic calculations.
 
@@ -195,4 +197,12 @@ Here are the time complexities associated with common data structures:
 - Deletion of an element: O(log n)
 
 ## Analyzing Algorithms with Time Complexity
-Choosing the best algorithm and data structure for a specific task requires an understanding of temporal complexity. By estimating scalability and performance through time complexity, we gain insights
+Choosing the best algorithm and data structure for a specific task requires an understanding of temporal complexity. By estimating scalability and performance through time complexity, we gain insightsinto how algorithms perform as input sizes increase. This understanding enables informed decisions during algorithm design and optimization.
+
+For example, suppose we have a large dataset where frequent searches for specific items are required. In such cases, a Binary Search Tree (BST) would provide efficient search operations with a time complexity of O(log n). However, if the dataset involves frequent insertions and deletions, a linked list or an array with O(1) insertion and deletion at the beginning may be more suitable.
+
+## Conclusion
+In conclusion, understanding time complexity in data structures is crucial for analyzing and evaluating the efficiency and performance of algorithms. Time complexity is a measure of how long an algorithm takes to run as the size of the input increases. It provides valuable insights into how an algorithm scales and helps in making informed decisions about algorithm selection and optimization.
+
+By leveraging time complexity analysis, developers can identify bottlenecks, choose optimal algorithms, and improve overall system performance. It forms the cornerstone of algorithmic analysis and is indispensable for building scalable and efficient software systems.
+
