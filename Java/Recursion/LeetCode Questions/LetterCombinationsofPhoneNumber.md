@@ -25,3 +25,36 @@ Constraints:
 
 `0 <= digits.length <= 4`
 `digits[i] is a digit in the range ['2', '9'].`
+
+#### Solution:  
+
+```java
+class Solutions {
+List<String> result = new ArrayList<>();
+    String[] mapping = {
+        "",    // 0
+        "",    // 1
+        "abc", // 2
+        "def", // 3
+        "ghi", // 4
+        "jkl", // 5
+        "mno", // 6
+        "pqrs",// 7
+        "tuv", // 8
+        "wxyz" // 9
+    };
+
+    public void keypad(String p, String up) {
+        if (up.isEmpty()) {
+            result.add(p);
+            return;
+        }
+
+        int digit = up.charAt(0) - '0';
+        String letters = mapping[digit];
+        for (char ch : letters.toCharArray()) {
+            keypad(p + ch, up.substring(1));
+        }
+    }
+}
+```
