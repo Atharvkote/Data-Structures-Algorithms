@@ -1,5 +1,3 @@
-package com.kunal.strings;
-
 public class Ascii {
     public static void main(String[] args) {
         char ch = 'a';
