@@ -5,7 +5,7 @@ public class Maze {
          boolean[][] board = {
                 {true, true, true},
                 {true, false, true},
-                {true, true, true}
+                {true, true, true},
         };
       // false Symbolizes Obstacles you can access the cell you have to avoid that path.
         pathRestrictions("", board, 0, 0);
@@ -28,5 +28,9 @@ public class Maze {
             pathRestrictions(p + 'R', maze, r, c+1);
         }
     }
-
+/* Output : 
+    DDRR
+    RRDD
+[Program finished]
+*/
 }
