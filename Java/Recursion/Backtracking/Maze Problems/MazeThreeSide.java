@@ -32,4 +32,10 @@ public class Maze {
 
         return list;
     }
+    
+/*
+Output ; 
+[DD, DVH, DHV, VDH, VVHH, VHD, VHVH, VHHV, HDV, HVD, HVVH, HVHV, HHVV]
+*/
+    
 }
