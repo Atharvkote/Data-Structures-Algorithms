@@ -80,16 +80,16 @@ Consider a scenario where certain cells are blocked (X) in the grid.
    
    ```
    S . . 
-   D X . 
-   . . E 
+   D . . 
+   D R R 
    ```
 
 2. **Path: RRDD**
    
    ```
-   S R . 
-   . X . 
-   . . E 
+   S R R 
+   . . D 
+   . . D 
    ```
 
    
