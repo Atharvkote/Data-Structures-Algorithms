@@ -52,4 +52,17 @@ public class Maze {
 
         return list;
          }
+/*
+Output  :
+1.Number of Path :  6
+2. Possible Paths :
+DDRR
+DRDR
+DRRD
+RDDR
+RDRD
+RRDD
+3.Possible Path in ArrayList: 
+[DDRR, DRDR, DRRD, RDDR, RDRD, RRDD]
+*/
     }
