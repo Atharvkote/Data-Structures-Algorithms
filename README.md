@@ -393,6 +393,12 @@ Use `assert.h` for testing C implementations.
 
 Use `unittest` for testing Python implementations.
 
+## Mini Projects :
+
+<p align="center">
+    
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Atharvkote&repo=DSA-Mini-Projects&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117)](https://github.com/Atharvkote/DSA-Mini-Projects)
+</p>
 
 ## Documentation
 
