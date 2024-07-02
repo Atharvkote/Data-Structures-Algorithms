@@ -1,9 +1,8 @@
-# Note 📝 
+> [!TIP]
+> 1. **Iteration Over a Data Structures :**
+> - To Iterate over a Data Structures (Array,LinkedList,Queue, Stack) or a Collection ( ArrayList , HashSet , HastMap ,etc)
+> - We Generally use for loop with a `Iterative Variable [i]`,
 
-### 1. Iteration Over a Data Structures 
-
-- To Iterate over a Data Structures (Array,LinkedList,Queue, Stack) or a Collection ( ArrayList , HashSet , HastMap ,etc)
-    - We Generally use for loop with a `Iterative Variable [i]`,
 - **For Example**
   
 ```java
@@ -26,7 +25,8 @@
 
         }
 ```
-- But This can Done in a More Simple way By Using a </br>
+>[!IMPORTANT]
+> - But This can Done in a More Simple way By Using a </br>
 ```For Each Loop``` 
 - **For Example :**
 ```java
