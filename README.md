@@ -4,6 +4,14 @@
 <img align="center" src="Assests/dsa_logo.jpg" height=200 width=300>
 </p>
 
+<div align="center">
+  
+![GitHub forks](https://img.shields.io/github/forks/Atharvkote/Data-Structures-Algorithms?style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Atharvkote/Data-Structures-Algorithms?style=for-the-badge)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Atharvkote/Data-Structures-Algorithms?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Atharvkote/Data-Structures-Algorithms?style=for-the-badge)
+</div>
+
 ## Syllabus
 
 ### Data Structures
