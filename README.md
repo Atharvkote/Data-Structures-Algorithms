@@ -10,6 +10,9 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/Atharvkote/Data-Structures-Algorithms?style=for-the-badge)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Atharvkote/Data-Structures-Algorithms?style=for-the-badge)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Atharvkote/Data-Structures-Algorithms?style=for-the-badge)
+<a href="https://github.com/devicons/devicon/stargazers">
+        <img alt="GitHub repository stars" src="https://img.shields.io/github/stars/Atharvkote/Data-Structures-Algorithms?color=%2360be86&label=github%20stars&style=for-the-badge">
+    </a>
 </div>
 
 ## Syllabus
