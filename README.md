@@ -173,7 +173,7 @@ Use `unittest` for testing Python implementations.
 
 For more detailed documentation, please visit our Documentation pages.
 
-  <a href="Java/Readme.md">
+  <a href="Java/Documentation/Readme.md">
     <img  src="https://skillicons.dev/icons?i=java" />
   </a> <a href="C/Readme.md">
     <img  src="https://skillicons.dev/icons?i=c" />
