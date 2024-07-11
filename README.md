@@ -22,9 +22,9 @@
 
 | Data Structure         | Subtypes                                  |
 |------------------------|-------------------------------------------|
-| Arrays                 |                                           |
+| Arrays                 |1D-Array , 2D-Array, Traversals, MaxSubarraySum|
 | Linked Lists           | Singly Linked List, Doubly Linked List, Circular Linked List |
-| Stacks                 |                                           |
+| Stacks                 |Stack Applications ( Parenthesis Checker, Decimal to Binary convertor )|
 | Queues                 | Circular Queue, Priority Queue            |
 | Trees                  | Binary Trees, Binary Search Trees, AVL Trees, Red-Black Trees |
 | Heaps                  | Min Heap, Max Heap                        |
