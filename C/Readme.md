@@ -4,6 +4,75 @@
 
 This Repository provides a comprehensive guide to data structures and algorithms in C. It covers fundamental concepts, theoretical explanations, and practical usage examples to help you understand and implement efficient data handling and processing in C.
 
+### C Directory Structure
+
+```css
+data-structures-algorithms/
+├── c/
+│   ├── arrays/
+│   │   ├── array.c
+│   │   ├── array.h
+│   │   ├── array_test.c
+│   ├── linkedlists/
+│   │   ├── singly_linked_list.c
+│   │   ├── singly_linked_list.h
+│   │   ├── doubly_linked_list.c
+│   │   ├── doubly_linked_list.h
+│   │   ├── linked_list_test.c
+│   ├── stacks/
+│   │   ├── stack.c
+│   │   ├── stack.h
+│   │   ├── stack_test.c
+│   ├── queues/
+│   │   ├── circular_queue.c
+│   │   ├── circular_queue.h
+│   │   ├── priority_queue.c
+│   │   ├── priority_queue.h
+│   │   ├── queue_test.c
+│   ├── trees/
+│   │   ├── binary_tree.c
+│   │   ├── binary_tree.h
+│   │   ├── binary_search_tree.c
+│   │   ├── binary_search_tree.h
+│   │   ├── avl_tree.c
+│   │   ├── avl_tree.h
+│   │   ├── red_black_tree.c
+│   │   ├── red_black_tree.h
+│   │   ├── tree_test.c
+│   ├── heaps/
+│   │   ├── min_heap.c
+│   │   ├── min_heap.h
+│   │   ├── max_heap.c
+│   │   ├── max_heap.h
+│   │   ├── heap_test.c
+│   ├── hashtables/
+│   │   ├── hashtable.c
+│   │   ├── hashtable.h
+│   │   ├── hashtable_test.c
+│   ├── graphs/
+│   │   ├── adjacency_matrix_graph.c
+│   │   ├── adjacency_matrix_graph.h
+│   │   ├── adjacency_list_graph.c
+│   │   ├── adjacency_list_graph.h
+│   │   ├── graph_test.c
+│   ├── sorting/
+│   │   ├── bubble_sort.c
+│   │   ├── quick_sort.c
+│   │   ├── merge_sort.c
+│   │   ├── sorting_test.c
+│   ├── searching/
+│   │   ├── linear_search.c
+│   │   ├── binary_search.c
+│   │   ├── searching_test.c
+│   ├── dynamic_programming/
+│   │   ├── fibonacci.c
+│   │   ├── knapsack.c
+│   │   ├── dynamic_programming_test.c
+│   ├── greedy/
+│   │   ├── coin_change.c
+│   │   ├── activity_selection.c
+│   │   ├── greedy_algorithms_test.c
+```
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Data Structures](#data-structures)
