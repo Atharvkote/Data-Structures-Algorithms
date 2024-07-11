@@ -1,6 +1,117 @@
-<div align="center">
-<img align="center" src="Essentials/Javacup.jpg" height=309px width=400px>
 
+<div align="center">
+<img src="Essentials/Javacup.jpg" height=309px width=400px>
+</div>
+
+## Java Directory File Structure : 
+```mathematica
+Java
+│
+├── COLLECTIONS Framework/
+│   ├── Implementations
+│   └── Documentation
+│
+├── Data Structure/
+│   ├── ArrayList/
+│   │   ├── Top LeetCode Questions
+│   │   ├── ArrayList.java
+│   │   ├── ArrayListSorting.java
+│   │   └── MultidimensionalArrayList.java
+│   ├── Arrays/
+│   │   ├── 1D Arrays/
+│   │   │   ├── ArrayBasics.java
+│   │   │   ├── ArrayReversal.java
+│   │   │   ├── LargestNumInArray.java
+│   │   │   ├── MSSKadane'sAlgorithm.java
+│   │   │   ├── MSSOptimized.java
+│   │   │   └── MaxSumSubArray(MSS).java
+│   │   ├── 2D Arrays/
+│   │   │   ├── 2DArrayDiagonalSum.java
+│   │   │   ├── 2DArraySeraching.java
+│   │   │   ├── 2DArraySpiralMatrix.java
+│   │   │   └── 2DArraysBasics.java
+│   ├── Graphs/
+│   ├── Hash Map/
+│   │   ├── Top Leetcode Questions
+│   │   ├── HashMapImplementation.java
+│   │   ├── HashMapOperation.java
+│   │   └── IteratingOverHastMap.java
+│   ├── Hash Set/
+│   │   ├── HashSetBasics.java
+│   │   └── HashSetIterator.java
+│   ├── Linked List/
+│   │   ├── Top LeetCode Questions
+│   │   ├── LLClass.java
+│   │   ├── LLFirstAndLastOperation.java
+│   │   ├── LLIterativeReversal.java
+│   │   ├── LLMiddleOperations.java
+│   │   ├── LLRecursiveReversal.java
+│   │   ├── LLReveralusingCOLLECTION.java
+│   │   └── LLusingCOLLECTIONS.java
+│   ├── Queue/
+│   │   ├── Top LeetCode Questions
+│   │   ├── CircularQueueUsingArray.java
+│   │   ├── QueueUsingArray.java
+│   │   ├── QueueUsingCOLLECTIONS.java
+│   │   └── QueueUsingLL.java
+│   ├── Stack/
+│   │   ├── LeetCode Top Questions
+│   │   ├── StackUsingArrayList.java
+│   │   ├── StackUsingCOLLECTIONS.java
+│   │   └── StackUsingLL.java
+│   ├── String/
+│   │   ├── LeetCode Top Question
+│   │   ├── String Builder
+│   │   │   ├── AppendCharacter.java
+│   │   │   ├── DeleteCharacter.java
+│   │   │   └── InsertCharacter.java
+│   │   ├── StringReversal.java
+│   │   ├── StringComparison.java
+│   │   └── StringOperations.java
+│   ├── Trees/
+│   │   ├── Tree Traversals/
+│   │   │   ├── InOrderTraversal.java
+│   │   │   ├── LevelOrderTraversal.java
+│   │   │   ├── PostOrderTranversal.java
+│   │   │   └── PreOrderTraversal.java
+│   │   ├── (Optimized)DiameterOfTree.java
+│   │   ├── BuildingTreePreOrderSquence.java
+│   │   ├── DiameterOfTree.java
+│   │   ├── HeightOfTree.java
+│   │   ├── NumberNodesInTree.java
+│   │   └── SumOfNodesInTree.java
+│
+├── Essentials (Essentials Image)
+│
+├── Java Basics/
+│   ├── Conditional Statements
+│   ├── Datatype and Variables
+│   ├── Iterative Statements
+│   ├── Operators In Java
+│   └── Switch-Case Statements
+│
+├── Key Concepts/
+│   ├── BIT Manipulation/
+│   │   ├── Applications/
+│   │   │   ├── FastExponentation.java
+│   │   │   └── OptimizedOddEven.java
+│   │   ├── Theory/
+│   │   │   ├── ClearBits.java
+│   │   │   ├── GetBit.java
+│   │   │   ├── SetBits.java
+│   │   │   └── UpdateBit.java
+│   ├── Prefix Sum/
+│   │   └── Documentation
+│   ├── Sliding Window/
+│   │   └── MAXsubArraySUM.java
+│   ├── DivideAndConquer.java
+│   ├── HareTurtleApproch.java
+│   └── Kadane'sAlgorithm.java
+│
+├── Methods (Functions)/
+│   ├── Basics/
+│   ├── CalculatorUsingFunction.java
+│   ├── MethodWithParameters.java
 │   ├── MethodWithReturnValue.java
 │   ├── OverloadedMethod.java
 │   ├── Readme.md
@@ -25,9 +136,9 @@
 │   ├── Inheritance/
 │   │   ├── ConstructorDuringInheritance.java
 │   │   ├── Inheritance.java
-│   │   ├── Documentation 
+│   │   ├── Documentation
 │   │   └── ThisAndSuper.java
-│   ├── Interfaces/ 
+│   ├── Interfaces/
 │   │   ├── Default Method/
 │   │   ├── InheritanceInInterfaces.java
 │   │   ├── InterfaceDemonstration.java
@@ -60,7 +171,6 @@
     ├── MergeSort.java
     ├── QuickSort.java
     └── SelectionSort.java
-
 ```
 
 ## Further Reading and Resources
@@ -70,7 +180,8 @@
 
 ## Contact Information
 For questions or support, please contact:
-- **Email**: atharvkote3@gmail.com 
-- **GitHub Link**:
-  ```sudo
-  https://github.com/Atharvkote/Data-Structures-Algorithms.git
+- **Email**: atharvkote3@gmail.com
+- **GitHub**:
+ ```
+https://github.com/Atharvkote/Data-Structures-Algorithms.git
+```
