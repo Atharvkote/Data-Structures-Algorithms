@@ -22,7 +22,7 @@ In the above image, the navigable set extends the sorted set interface. Since a 
 
 **Declaration:** The Set interface is declared as:
 
-```sudo
+```java
 // Obj is the type of the object to be stored in Set 
 Set<Obj> set = new HashSet<Obj> ();
 ```
@@ -39,7 +39,7 @@ A map contains unique keys.Maps are perfect to use for key-value association map
 - A map of classes and students. Each class (key) is associated with a list of students (value).
 
 **Syntax:** Defining Type-safe Map
-```sudo
+```java
 Map hm = new HashMap(); 
 // Obj is the type of the object to be stored in
 ```
@@ -52,7 +52,7 @@ The List interface in Java provides a way to store the ordered collection. It is
 The List interface is found in java.util package and inherits the Collection interface. It is a factory of the ListIterator interface. Through the ListIterator, we can iterate the list in forward and backward directions. The implementation classes of the List interface are ArrayList, LinkedList, Stack, and Vector. ArrayList and LinkedList are widely used in Java programming. The Vector class is deprecated since Java 5
 
 **Declaration of Java List Interface**
-```sudo
+```java
 public interface List<E> extends Collection<E> ;
 ```
 ## Queues Interfaces 
@@ -61,7 +61,7 @@ public interface List<E> extends Collection<E> ;
 The Queue interface is present in java.util package and extends the Collection interface is used to hold the elements about to be processed in FIFO(First In First Out) order. It is an ordered list of objects with its use limited to inserting elements at the end of the list and deleting elements from the start of the list, (i.e.), it follows the FIFO or the First-In-First-Out principle.
 
 In Java, the Queue interface is a subtype of the Collection interface and represents a collection of elements in a specific order. It follows the first-in, first-out (FIFO) principle, which means that the elements are retrieved in the order in which they were added to the queue.This type-safe queue can be defined as:
-```sudo
+```java
 // Obj is the type of the object to be stored in Queue 
 Queue<Obj> queue = new PriorityQueue<Obj> ();
 ```
