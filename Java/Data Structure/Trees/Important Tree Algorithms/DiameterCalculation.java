@@ -1,18 +1,45 @@
-public static TreeInfo diameter(Node root) {
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}
 
-       if(root == null) {
-           return new TreeInfo(0, 0);
-       }
+class Solution {
+    // Method to calculate the height of a tree
+    public static int height(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
 
-       TreeInfo leftTI = diameter(root.left);
-       TreeInfo rightTI = diameter(root.right);
+        int Lheight = height(root.left);
+        int Rheight = height(root.right);
 
-       int myHeight = Math.max(leftTI.height, rightTI.height) + 1;
+        return Math.max(Lheight, Rheight) + 1;
+    }
 
-       int diam1 = leftTI.height + rightTI.height + 1;
-       int diam2 = leftTI.diam;
-       int diam3 = rightTI.diam;
+    // Method to calculate the diameter of a tree
+    public int diameter(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
 
-       int myDiam = Math.max(diam1, Math.max(diam2, diam3));
-       return new TreeInfo(myHeight, myDiam);
+        int Lheight = height(root.left);
+        int Rheight = height(root.right);
+
+        // Diameter passing through the root
+        int rootDiameter = Lheight + Rheight;
+
+        // Diameter not passing through the root
+        int leftDiameter = diameter(root.left);
+        int rightDiameter = diameter(root.right);
+
+        // The diameter is the maximum of the above three values
+        return Math.max(rootDiameter, Math.max(leftDiameter, rightDiameter));
+    }
+
+    // Main method to be called to get the diameter of a binary tree
+    public int diameterOfBinaryTree(TreeNode root) {
+        return diameter(root);
+    }
 }
