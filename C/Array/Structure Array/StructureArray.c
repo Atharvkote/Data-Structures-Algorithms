@@ -1,171 +1,160 @@
-
 #include <stdio.h>
 #include <string.h>
-struct Student
-{
+
+#define MAX_STUDENTS 10
+
+struct Student {
     char name[20];
     int rollno;
-} s[10];
+} s[MAX_STUDENTS];
 
-int main()
-{
+int main() {
     int ch, f, h, x, cha, newroll, i, vb, cv, w;
-    int r = 0;
-    int v = 0;
+    int r, v;
     char zz[20];
     char emt[20];
-    printf("Enter Number of Student \n");
+
+    printf("Enter Number of Students\n");
     scanf("%d", &ch);
+    if (ch > MAX_STUDENTS) {
+        printf("Error: Number of students cannot exceed %d.\n", MAX_STUDENTS);
+        return 1;
+    }
+
     printf("Enter Data of %d Students\n", ch);
-    for (int i = 0; i < ch ; i++)
-    {
-        printf("Enter Details of Student -%d\n", i+1);
-        printf("Enter Your Name \n");
+    for (i = 0; i < ch; i++) {
+        printf("Enter Details of Student -%d\n", i + 1);
+        printf("Enter Your Name\n");
         scanf("%s", s[i].name);
-        printf("Enter Your Roll number \n");
+        printf("Enter Your Roll Number\n");
         scanf("%d", &s[i].rollno);
     }
-    do
-    {
-        printf("\t\tOperation Menu : \n\t\t1.Inseration of Record\n\t\t2.Deletion of Record \n\t\t3.Updation of Record\n\t\t4.Display Records\n");
+
+    do {
+        printf("\t\tOperation Menu:\n");
+        printf("\t\t1. Insertion of Record\n");
+        printf("\t\t2. Deletion of Record\n");
+        printf("\t\t3. Updation of Record\n");
+        printf("\t\t4. Display Records\n");
         printf("Enter Your Choice\n");
         scanf("%d", &f);
-        switch (f)
-        {
-        case 1: //inseration of Record
-        
-            printf("Enter Number of Student Data to been Inserted \n");
-            scanf("%d", &cha);
-            if(cha+ch<10){
-            printf("Enter Data of %d Students\n", cha);
 
-            for (int i = ch ; i < cha + ch; i++)
-            {
-                printf("Enter Details of Student -%d\n", i+1);
-                printf("Enter Your Name \n");
-                scanf("%s", s[i].name);
-                printf("Enter Your Roll number \n");
-                scanf("%d", &s[i].rollno);
-            }
-            ch += cha;
-            printf("Record Updated !!!!!\n");
-            }
-            else{
-            printf("DATA LIMIT REACHED !!!!!!!! [Data Limit : 10] \n");
-            }      
-            break;
-        case 2: //Deletion of record
-            r = 0;
-            v = 0;
-            printf("Enter Your Roll Number\n");
-            scanf("%d", &h);
-            for (int i = 0; i < ch ; i++)
-            {
-                if (h == s[i].rollno)
-                {
-                    r++;// flag variable
-                   v=i; //storing index of flag varible 
-                    break;
-                }
-            }
-            if (r != 0)
-            {
-                for (i=v; i <=ch; i++)
-                {
-                    s[i] = s[i + 1];
-                    strcpy(s[i].name, s[i + 1].name);
-                    
-                }
-                printf("Record Deleted!!!!!\n");
-                ch--;
-            }
-
-            else
-            {
-                printf("Invalid Roll Number\n ");
-            }
-
-            break;
-        case 3: //Upadation of Record
-            printf("\t\t:"
-                   "Upadation Menu : \n\t\t1.Update Roll Number \n\t\t2.Update Name\n ");
-            printf("Enter Your Choice\n");
-            scanf("%d", &x);
-            switch (x)
-            {
-            case 1: //upadte roll no
-                r = 0;
-                v = 0;
-                printf("Enter Your Current Roll Number\n");
-                scanf("%d", &cv);
-                for (int i = 0; i < ch; i++)
-                {
-                    if (cv == s[i].rollno)
-                    {
-                        r++;// flag variable
-                        v = i;//storing index of flag varible 
+        switch (f) {
+            case 1: // Insertion of Record
+                printf("Enter Number of Students Data to be Inserted\n");
+                scanf("%d", &cha);
+                if (cha + ch > MAX_STUDENTS) {
+                    printf("DATA LIMIT REACHED [Data Limit: %d]\n", MAX_STUDENTS);
+                } else {
+                    printf("Enter Data of %d Students\n", cha);
+                    for (i = ch; i < cha + ch; i++) {
+                        printf("Enter Details of Student -%d\n", i + 1);
+                        printf("Enter Your Name\n");
+                        scanf("%s", s[i].name);
+                        printf("Enter Your Roll Number\n");
+                        scanf("%d", &s[i].rollno);
                     }
+                    ch += cha;
+                    printf("Records Updated!\n");
                 }
-                if (r != 0)
-                {
-                    printf("Enter Your New Roll Number \n");
-                    scanf("%d", &newroll);
-                    s[v].rollno = newroll;
-
-                    printf("Record Updated!!!!! \n");
-                    break;
-                }
-                else
-                {
-                    printf("Invalid Roll Number\n ");
-                }
-
                 break;
-            case 2: //update name
-                r = 0;//flag and index storing variable 
-                v = 0;
-                printf("Enter Your Current Name \n");
-                scanf("%s", emt);
-                for (int i = 0; i < ch; i++)
-                {
-                    vb = strcmp(emt, s[i].name);
-                    if (vb == 0)
-                    {
-                        r+=5;// flag variable
-                        v = i;//storing index of flag varible
+
+            case 2: // Deletion of Record
+                r = 0;
+                printf("Enter Roll Number to Delete\n");
+                scanf("%d", &h);
+                for (i = 0; i < ch; i++) {
+                    if (h == s[i].rollno) {
+                        r = 1;
+                        v = i;
                         break;
                     }
                 }
-                if (r!= 0)
-                {
-                     printf("Enter Your New Name ");
-                    scanf("%s", zz);
-                    strcpy(s[v].name, zz);
-                    printf("Name Updated!!!");
-                }
-                else
-                {
-                  
-                   
-                    printf("Name Not Found ");
+                if (r) {
+                    for (i = v; i < ch - 1; i++) {
+                        s[i] = s[i + 1];
+                    }
+                    ch--;
+                    printf("Record Deleted!\n");
+                } else {
+                    printf("Invalid Roll Number\n");
                 }
                 break;
+
+            case 3: // Updation of Record
+                printf("\t\tUpdation Menu:\n");
+                printf("\t\t1. Update Roll Number\n");
+                printf("\t\t2. Update Name\n");
+                printf("Enter Your Choice\n");
+                scanf("%d", &x);
+
+                switch (x) {
+                    case 1: // Update Roll Number
+                        r = 0;
+                        printf("Enter Current Roll Number\n");
+                        scanf("%d", &cv);
+                        for (i = 0; i < ch; i++) {
+                            if (cv == s[i].rollno) {
+                                r = 1;
+                                v = i;
+                                break;
+                            }
+                        }
+                        if (r) {
+                            printf("Enter New Roll Number\n");
+                            scanf("%d", &newroll);
+                            s[v].rollno = newroll;
+                            printf("Record Updated!\n");
+                        } else {
+                            printf("Invalid Roll Number\n");
+                        }
+                        break;
+
+                    case 2: // Update Name
+                        r = 0;
+                        printf("Enter Current Name\n");
+                        scanf("%s", emt);
+                        for (i = 0; i < ch; i++) {
+                            if (strcmp(emt, s[i].name) == 0) {
+                                r = 1;
+                                v = i;
+                                break;
+                            }
+                        }
+                        if (r) {
+                            printf("Enter New Name\n");
+                            scanf("%s", zz);
+                            strcpy(s[v].name, zz);
+                            printf("Name Updated!\n");
+                        } else {
+                            printf("Name Not Found\n");
+                        }
+                        break;
+
+                    default:
+                        printf("Invalid Choice\n");
+                }
+                break;
+
+            case 4: // Display Records
+                if (ch == 0) {
+                    printf("No records to display.\n");
+                } else {
+                    for (i = 0; i < ch; i++) {
+                        printf("Data of Student - %d\n", i + 1);
+                        printf("\tName: %s\n", s[i].name);
+                        printf("\tRoll Number: %d\n", s[i].rollno);
+                    }
+                }
+                break;
+
             default:
                 printf("Invalid Choice\n");
-            }
-            break;
-        case 4: //display Reocrd
-            for (int i = 0; i < ch ; i++)
-            {
-                printf("Data of Student - %d", i+1);
-                printf("\n\tName :%s\n\tRoll number :%d\n", s[i].name, s[i].rollno);
-            }
-            break;
-        default:
-            printf("Invalid Choice");
         }
-        printf("\nIf You want To Continue with Opration [PRESS 1]");
+
+        printf("\nIf you want to continue with operations [PRESS 1], otherwise [PRESS 0]\n");
         scanf("%d", &w);
     } while (w == 1);
-     return 0 ;
+
+    return 0;
 }
