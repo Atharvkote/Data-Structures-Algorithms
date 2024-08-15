@@ -97,7 +97,7 @@
 To get started with the repository, clone it to your local machine using:
 
 ```sh
-git clone https://github.com/your-username/data-structures-algorithms.git
+git clone https://github.com/Atharvkote/Data-Structures-Algorithms.git
 ```
 
 ### Java Setup
