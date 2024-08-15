@@ -68,7 +68,8 @@ Java is a high-level, class-based, object-oriented programming language that is 
 ## Contact Information
 For questions or support, please contact:
 - **Email**: atharvkote3@gmail.com
-- **GitHub**:
+- **GitHub**: [Atharvkote](https://github.com/Atharvkote)
+- **Repositories Link** :
  ```
 https://github.com/Atharvkote/Data-Structures-Algorithms.git
 ```
