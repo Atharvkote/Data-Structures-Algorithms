@@ -41,6 +41,9 @@
 | Dynamic Programming    | Fibonacci Sequence, Knapsack Problem, Longest Common Subsequence |
 | Greedy Algorithms      | Coin Change Problem, Activity Selection                  |
 
+### Roadmap 🛣
+
+<img src="Assests/DSA_Roadmap.jpg">
 
 ## Java
 <div align="center">
@@ -48,7 +51,7 @@
     <img  src="https://skillicons.dev/icons?i=java,idea" />
   </a> 
 </div>
- 
+
 **_Java_** is a versatile programming language known for its Object-Oriented Programming (OOP) capabilities, which make it a strong choice for implementing data structures and algorithms.
 
 ### Specialities
