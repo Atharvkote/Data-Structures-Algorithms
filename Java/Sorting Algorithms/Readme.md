@@ -14,6 +14,6 @@ Arrays.sort(array);
 ```
 ### Specs
 
-- **Algorithms used :** Quick Sort.
-- **Time Complexity :** O(n*logn)
+- **Algorithms used :** `Quick Sort.`
+- **Time Complexity :** `O(n*logn)`
   
