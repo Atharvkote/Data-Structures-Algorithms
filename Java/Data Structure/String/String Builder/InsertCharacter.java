@@ -1,7 +1,7 @@
 /*
 String Builder
 - Declaration
-StringBuilder sb = new StringBuilder("Apna College");
+StringBuilder sb = new StringBuilder("Atharva");
      System.out.println(sb);
 
 // Get A Character from Index
