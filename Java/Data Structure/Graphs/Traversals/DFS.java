@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 public class DFS {
@@ -35,8 +34,7 @@ public class DFS {
         graph[5].add(new Edge(5, 3, 1));
         graph[5].add(new Edge(5, 4, 1));
         graph[5].add(new Edge(5, 6, 1));
-        graph[6].add(new Edge(6, 5, 1));  // This line should use graph[6] not graph[5]
-    }
+        graph[6].add(new Edge(6, 5, 1));  
 
     // DFS method to traverse the graph
     public static void dfs(ArrayList<Edge> graph[], int curr, boolean visited[]) {
