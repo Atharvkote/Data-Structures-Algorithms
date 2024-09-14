@@ -3,56 +3,60 @@ import java.util.*;
 public class TopologicalSort {
 
     static class Edge {
-        int src;
-        int dest;
+        int source;
+        int destination;
 
-        public Edge(int s, int d) {
-            this.src = s;
-            this.dest = d;
+        public Edge(int source, int destination) {
+            this.source = source;
+            this.destination = destination;
         }
     }
 
-    static void createGraph(ArrayList<Edge> graph[]) {
-        for (int i = 0; i < graph.length; i++) {
-            graph[i] = new ArrayList<>();
+    static void createGraph(ArrayList<Edge> adjacencyList[]) {
+        for (int i = 0; i < adjacencyList.length; i++) {
+            adjacencyList[i] = new ArrayList<>();
         }
-        graph[2].add(new Edge(2, 3));
-        graph[3].add(new Edge(3, 1));
-        graph[4].add(new Edge(4, 0));
-        graph[4].add(new Edge(4, 1));
-        graph[5].add(new Edge(5, 0));
-        graph[5].add(new Edge(5, 2));
+        adjacencyList[2].add(new Edge(2, 3));
+        adjacencyList[3].add(new Edge(3, 1));
+        adjacencyList[4].add(new Edge(4, 0));
+        adjacencyList[4].add(new Edge(4, 1));
+        adjacencyList[5].add(new Edge(5, 0));
+        adjacencyList[5].add(new Edge(5, 2));
     }
 
-    public static void topoSortUtil(ArrayList<Edge> graph[], int curr, boolean vis[], Stack<Integer> s) {
-        vis[curr] = true;
-        for (int i = 0; i < graph[curr].size(); i++) {
-            Edge e = graph[curr].get(i);
-            if (!vis[e.dest]) {
-                topoSortUtil(graph, e.dest, vis, s);
+    public static void topologicalSortUtil(ArrayList<Edge> adjacencyList[], int currentVertex, boolean visited[], Stack<Integer> stack) {
+        visited[currentVertex] = true;
+        for (int i = 0; i < adjacencyList[currentVertex].size(); i++) {
+            Edge edge = adjacencyList[currentVertex].get(i);
+            if (!visited[edge.destination]) {
+                topologicalSortUtil(adjacencyList, edge.destination, visited, stack);
             }
         }
-        s.push(curr);
+        stack.push(currentVertex);
     }
 
-    // O(V+E)
-    public static void topologicalSort(ArrayList<Edge> graph[]) {
-        boolean vis[] = new boolean[graph.length];
-        Stack<Integer> s = new Stack<>();
-        for (int i = 0; i < graph.length; i++) {
-            if (!vis[i]) {
-                topoSortUtil(graph, i, vis, s);
+    // O(V + E) - Time Complexity
+    public static void topologicalSort(ArrayList<Edge> adjacencyList[]) {
+        boolean visited[] = new boolean[adjacencyList.length];
+        Stack<Integer> stack = new Stack<>();
+        
+        // Visit all vertices to handle disconnected graphs
+        for (int i = 0; i < adjacencyList.length; i++) {
+            if (!visited[i]) {
+                topologicalSortUtil(adjacencyList, i, visited, stack);
             }
         }
-        while (!s.isEmpty()) {
-            System.out.print(s.pop() + " ");
+        
+        // Print the elements of the stack to get topological order
+        while (!stack.isEmpty()) {
+            System.out.print(stack.pop() + " ");
         }
     }
 
     public static void main(String args[]) {
-        int V = 6;
-        ArrayList<Edge> graph[] = new ArrayList[V];
-        createGraph(graph);
-        topologicalSort(graph);
+        int numberOfVertices = 6;
+        ArrayList<Edge> adjacencyList[] = new ArrayList[numberOfVertices];
+        createGraph(adjacencyList);
+        topologicalSort(adjacencyList);
     }
 }
